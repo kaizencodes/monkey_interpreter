@@ -15,6 +15,7 @@ const (
 	// Identifiers + literals
 	IDENT 		= "IDENT" // add, foobar, x, y, ...
 	INT 		= "INT"
+	STRING 		= "STRING"
 	
 	// Operators
     ASSIGN   	= "="
@@ -27,8 +28,8 @@ const (
     LT 			= "<"
     GT 			= ">"
 
-    EQ     = "=="
-    NOT_EQ = "!="
+    EQ     		= "=="
+    NOT_EQ 		= "!="
 	
 	// Delimiters
 	COMMA     	= ","
